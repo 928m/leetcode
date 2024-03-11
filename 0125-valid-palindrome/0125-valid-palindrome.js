@@ -9,7 +9,6 @@ var isPalindrome = function (s) {
   }
 
   while (frontPointer < half) {
-    console.log(string[frontPointer], string[backPointer]);
     if (string[frontPointer] !== string[backPointer]) {
       return false;
     }

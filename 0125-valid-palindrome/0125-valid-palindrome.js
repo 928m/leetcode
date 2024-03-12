@@ -1,19 +1,28 @@
 var isPalindrome = function (s) {
-  const string = s.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const half = string.length / 2;
-  let frontPointer = 0;
-  let backPointer = string.length - 1;
+  let left = 0;
+  let right = s.length - 1;
 
-  if (string.length === 1) {
+  if (s.length === 1) {
     return true;
   }
 
-  while (frontPointer < half) {
-    if (string[frontPointer] !== string[backPointer]) {
+  while (left < right) {
+    if (!s[left].match(/[a-zA-Z0-9]/)) {
+      left++;
+      continue;
+    }
+
+    if (!s[right].match(/[a-zA-Z0-9]/)) {
+      right--;
+      continue;
+    }
+
+    if (s[left].toLowerCase() !== s[right].toLowerCase()) {
       return false;
     }
-    frontPointer++;
-    backPointer--;
+
+    left++;
+    right--;
   }
 
   return true;

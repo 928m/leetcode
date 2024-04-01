@@ -3,5 +3,20 @@
  * @return {number}
  */
 var findMin = function(nums) {
- return nums.sort((a, b) => a - b)[0];
+  let i = 0;
+
+  if (nums.length === 1) {
+    return nums[i];
+  }
+
+  while (i < nums.length) {
+    if (nums[i] < nums[i + 1]) {
+        const firstValue = nums.shift();
+        nums.push(firstValue);
+        continue;
+    }
+
+    return nums[i + 1];
+  }
 };
+findMin([3,4,5,1,2]);

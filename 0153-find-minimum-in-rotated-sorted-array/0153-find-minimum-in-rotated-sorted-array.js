@@ -3,5 +3,5 @@
  * @return {number}
  */
 var findMin = function(nums) {
- return nums.sort()[0];
+ return nums.sort((a, b) => a - b)[0];
 };

@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/928m/-/tree/master/0347-top-k-frequent-elements) |
+| [0424-longest-repeating-character-replacement](https://github.com/928m/-/tree/master/0424-longest-repeating-character-replacement) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -34,3 +35,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/928m/-/tree/master/0347-top-k-frequent-elements) |
+# String
+|  |
+| ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/928m/-/tree/master/0424-longest-repeating-character-replacement) |
+# Sliding Window
+|  |
+| ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/928m/-/tree/master/0424-longest-repeating-character-replacement) |
